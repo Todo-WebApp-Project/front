@@ -1,0 +1,84 @@
+.Today_Page {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .today_title {
+    margin-bottom: 2.5em;
+  }
+  
+  .upcoming_Bottom_Block {
+    display: flex;
+    width: 100%;
+  }
+  
+  .upcoming_Today_Block,
+  .upcoming_Tomorrow_Block,
+  .upcoming_This_Week_Block {
+    border: 1px solid #e4e4e4;
+    padding-left: 15px;
+    height: 24em;
+    overflow: auto; /* 추가 */
+    margin-bottom: 20px;
+    border-radius: 15px;
+  }
+  
+  .upcoming_Today_Block {
+    width: 95em;
+  }
+  
+  .upcoming_Tomorrow_Block,
+  .upcoming_This_Week_Block {
+    width: 46em;
+  }
+  
+  .upcoming_Tomorrow_Block{
+      margin-right: 2em;
+  }
+  
+  .today_h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  
+  .icon_plus {
+    padding-left: 5px;
+    padding-right: 15px;
+    color: #7e7e7e;
+    width: 15px;
+    height: auto;
+  }
+  
+  .add_task_button {
+    display: "inline-flex";
+    align-items: "center";
+  }
+  
+  .add_block {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #e4e4e4;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: auto;
+    width: 112em;
+    margin-bottom: 1.5em;
+  }
+  
+  .task_sub_block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+    padding-top: 0.3em;
+  }
+  
+  .task_time {
+    padding-left: 1.6em;
+    padding-right: 1em;
+  }
+  
+  .task_name{
+      margin-left: 0.3em;
+  }

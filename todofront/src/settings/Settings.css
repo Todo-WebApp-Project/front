@@ -1,0 +1,120 @@
+.settingsPage_top {
+}
+
+.icon_settingspage {
+  width: 10em;
+  height: auto;
+  color: rgba(132, 204, 204, 0.911);
+}
+
+.profile_line {
+  display: flex;
+  flex-direction: column; /* 요소들을 세로로 배열 */
+  align-items: center; /* 가로 방향으로 중앙 정렬 */
+  padding: 45px;
+  background-color: #e9e9e991;
+  width: 90em;
+  border-radius: 15px;
+  gap: 20px; /* 상단 부분과 자기소개 사이의 간격 */
+}
+
+.profile_image {
+  flex: 0 0 auto; /* 크기가 내용에 따라 변하지 않도록 설정 */
+  width: 100px;
+  height: auto;
+  display: flex; /* 아이콘을 중앙 정렬하기 위해 사용 */
+  align-items: center; /* 세로 방향 중앙 정렬 */
+  justify-content: center; /* 가로 방향 중앙 정렬 */
+}
+
+.icon_settingspage {
+  width: 10em; /* 아이콘 크기 조정 */
+  height: auto;
+  color: rgb(132, 204, 204);
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: column; /* 자식 요소들을 세로로 배열 */
+  margin-left: 50px; /* 좌측 요소와의 간격 설정 */
+}
+
+.social_info {
+  margin-top: 15px;
+  margin-left: 10em;
+  display: flex;
+  width: 100%; /* 컨테이너의 너비를 부모 요소에 맞춤 */
+  gap: 30px;
+}
+
+.upper_part {
+  display: flex;
+  width: 100%; /* 상단 부분의 너비를 부모와 동일하게 설정 */
+}
+
+.user_introduction {
+  display: flex;
+  padding-right: 60em;
+  font-size: 20px;
+}
+
+.user_level,
+.user_name,
+.user_email {
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.social_info > div {
+  display: flex;
+  flex-direction: column; /* 요소들을 세로로 배열 */
+  align-items: center; /* 내용을 중앙 정렬 */
+  gap: 4px; /* 숫자와 텍스트 사이의 간격 */
+}
+
+.social_info .number {
+  font-size: 1.8em; /* 숫자 크기 조정 */
+  font-weight: bold;
+}
+
+.social_info .text {
+  font-size: 1.4em; /* 텍스트 크기 조정 */
+}
+
+.profile_reset_button_1 {
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  height: 3em;
+  border-radius: 15px;
+  border: 1px solid #c5c5c550;
+  color: rgb(84, 179, 147);
+  background-color: #fff;
+  width: 76.5em;
+  font-weight: bold;
+}
+
+.content_settings {
+  padding-left: 10px;
+  font-weight: 500;
+  color: #424242;
+  font-size: 20px;
+}
+
+.logout_profile_button,
+.reset_Data_button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #42424250;
+  font-size: 20px;
+  margin-right: 3em;
+  background-color: #fff;
+  font-weight: 600;
+  width: 10em;
+}
+
+.reset_Data_button {
+  color: rgb(216, 22, 22);
+}

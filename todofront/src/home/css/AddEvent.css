@@ -1,0 +1,128 @@
+.addEventFrame {
+  width: 100%;
+  height: 100%;
+}
+
+.TopFrame {
+  width: 100%;
+  height: 10%;
+  background-color: #d6e8db;
+  border-radius: 10px 10px 0px 0px;
+  padding-top: 5px;
+  padding-left: 13px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #4e4e4e;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.MiddleFrame {
+  width: 100%;
+  height: 100%;
+  padding-left: 13px;
+}
+
+.MiddleFrame_title {
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1.8px solid rgba(0, 0, 0, 0.3);
+  height: 2.2em;
+  width: 31.5em;
+  margin-bottom: 15px;
+}
+
+.MiddleFrame_content {
+  padding-left: 10px;
+  border: 1.8px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  height: 7em;
+  width: 31.5em;
+  margin-bottom: 15px;
+}
+
+.DueDate {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.startDate{
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1.8px solid rgba(0, 0, 0, 0.3);
+    width: 18.3em;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+}
+
+.EndDate{
+    border-radius: 5px;
+    margin-left: 5.55em;
+    border: 1.8px solid rgba(0, 0, 0, 0.3);
+    width: 18.3em;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.color_frame{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.color_select{
+
+}
+
+.Tag_frame{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.submitbutton{
+    background-color: #ffffff;
+    border: 1.8px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 22em;
+    height: 2em;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #4e4e4e;
+}
+
+.colorpicker{
+    position: absolute;
+    bottom: 4.5em;
+    left: 6.1em;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 1001;
+}
+
+.TagList_button{
+    padding-left: 3em;
+}
+
+.tagLists{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #4e4e4e;
+    border: 1.8px solid rgba(0, 0, 0, 0.3);
+    width: 5em;
+    height: 2em;
+    border-radius: 5px;
+}
+
+.share_frame{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-bottom: 1.7em;
+    display: flex;
+}

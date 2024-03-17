@@ -1,0 +1,574 @@
+.LoginPage_Frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.LoginPage_MainFrame {
+  border-radius: 20px;
+  background-color: white;
+  height: 85vh;
+  width: 70vw;
+}
+
+/*Login View*/
+.LoginPage_loginview {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.loginView_left {
+  border-radius: 20px;
+  width: 40%;
+  height: 81vh;
+  background-color: #fff8de;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Landing_Page_StartButton {
+  color: #2f2f2f;
+  background-color: #fff8de;
+  border-radius: 20px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  height: 80px;
+  width: 450px;
+  font-size: 20px;
+  margin-left: 55px;
+  margin-top: 40px;
+  transition: background-color 0.3s;
+}
+
+.Login_Title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #c1d0b5;
+  margin: 0;
+  padding-left: 30px;
+  font-size: 80px;
+}
+
+.Login_Icon {
+  height: 100em;
+  width: auto;
+  padding-top: 109px;
+}
+
+/*loginView_right*/
+.loginView_right {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
+  width: 60%;
+  padding-left: 8em;
+}
+
+.loginView_right_Title {
+  font-weight: 700;
+  color: #535353;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.loginView_right_InputData_Textfild {
+  border: none;
+  color: #656565;
+  padding-left: 10px;
+  height: 2.5em;
+  width: 30em;
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px #cfcfcf;
+}
+.loginView_right_LoginButton {
+  border: none;
+  background-color: #99a98f;
+  color: #ffffff;
+  height: 2.5em;
+  width: 27.6em;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.loginView_right_or {
+  text-align: left; /* 텍스트를 중앙에 위치시킵니다. */
+  padding-left: 12.45em;
+  position: relative; /* 가상 요소의 위치를 설정하기 위해 relative를 선언합니다. */
+  overflow: hidden; /* 가상 요소가 이 요소를 벗어나지 않게 합니다. */
+}
+
+.loginView_right_or::before,
+.loginView_right_or::after {
+  content: ""; /* 가상 요소를 생성합니다. */
+  background: #999999; /* 짝대기 색상을 검정색으로 설정합니다. */
+  position: absolute; /* 가상 요소의 위치를 절대값으로 설정합니다. */
+  height: 2px; /* 짝대기 두께를 1px로 설정합니다. */
+  width: 29%; /* 짝대기 길이를 50%로 설정합니다. */
+  top: 50%; /* 짝대기를 상위 요소의 중앙에 위치시킵니다. */
+  border: none;
+}
+
+.loginView_right_or::before {
+  right: 70%; /* 오른쪽 짝대기를 텍스트의 오른쪽에 위치시킵니다. */
+  margin-right: 5px; /* 텍스트와의 간격을 설정합니다. */
+}
+
+.loginView_right_or::after {
+  left: 33%; /* 왼쪽 짝대기를 텍스트의 왼쪽에시킵니다. */
+  margin-left: 18px; /* 텍스트와의격을 설정합니다. */
+}
+
+.loginView_right_other {
+  margin-top: 25px;
+}
+
+.googleButton {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  background-color: #ffffff;
+  margin-left: 7em;
+  font-weight: 700;
+  color: #2f2f2f;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.googleIconCSS {
+  height: 20px;
+  width: auto;
+  padding-right: 15px;
+}
+
+.loginView_right_signUP {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  padding-left: 6em;
+}
+
+.newMembertxt {
+  font-family: "Montserrat", sans-serif;
+  color: #626262;
+  font-weight: 700;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.createAcountButton {
+  border: none;
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  color: #99a98f;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+
+.forgetpasswordButton {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  color: #626262;
+  border: none;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 13px;
+  padding-left: 23.5em;
+  margin-bottom: 5px;
+}
+
+/*find password*/
+.forgotView_right {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
+  width: 60%;
+  padding-left: 4em;
+}
+
+.forgotView_Title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #535353;
+  margin: 0;
+  font-size: 40px;
+}
+
+.forgotView_Subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #626262;
+  margin: 0;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.forgotView_input {
+  margin-top: 20px;
+}
+
+.forgotView_inputTxt {
+  border: none;
+  background-color: #eaeaea;
+  border-radius: 13px;
+  height: 40px;
+  width: 39em;
+  padding-left: 10px;
+}
+
+.forgotView_button {
+  background-color: #99a98f;
+  border: none;
+  color: #ffffff;
+  height: 50px;
+  width: 40em;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+/*google login*/
+.threeIcon {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.appicon_googleVIew {
+  width: 130px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.googlecalender_icon {
+  width: 110px;
+  height: auto;
+}
+
+.fas.fa-sync {
+  width: 80px;
+  height: auto;
+  color: #cccccc;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.googleView_right_SubTitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #626262;
+  margin: 0;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.googleView_right_Title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #626262;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.googleView_right_yes {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  background-color: #765827;
+  color: #ffffff;
+  font-weight: 700;
+  height: 60px;
+  width: 270px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.googleView_right_no {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  background-color: #99a98f;
+  color: #ffffff;
+  font-weight: 700;
+  height: 60px;
+  width: 270px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+/*signUp view*/
+.LoginPage_signview_left {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
+  width: 60%;
+  padding-left: 4em;
+  height: 81vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginPage_signview_right {
+  border-radius: 20px;
+  width: 40%;
+  background-color: #fff8de;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 20px;
+  padding-right: 40px;
+  font-family: "Montserrat", sans-serif;
+  height: 83vh;
+}
+
+.Login_Icon_signup {
+  height: 34.3em;
+  width: auto;
+  padding-top: 130px;
+  margin-left: 100px;
+}
+
+.LoginPage_signview_left_title{
+  font-family: "Montserrat", sans-serif;
+  color: #535353;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.LoginPage_signview_left_Subtitle{
+  font-family: "Montserrat", sans-serif;
+  color: #626262;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  padding-left: 3px;
+}
+
+.signupthreebutton{
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.signupthreebutton_username{
+  border-radius: 13px;
+  background-color: #EAEAEA;
+  color: #656565;
+  border: none;
+  width: 30em;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.signupthreebutton_Email{
+  border-radius: 13px;
+  background-color: #EAEAEA;
+  color: #656565;
+  border: none;
+  width: 30em;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.signupthreebutton_password{
+  border-radius: 13px;
+  background-color: #EAEAEA;
+  color: #656565;
+  border: none;
+  width: 30em;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.LoginPage_signview_left_completebutton{
+  background-color: #99A98F;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  width: 35.1em;
+  margin-left: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.loginView_right_or_signup{
+  margin-top: 40px;
+  text-align: left; /* 텍스트를 중앙에 위치시킵니다. */
+  padding-left: 12.9em;
+  position: relative; /* 가상 요소의 위치를 설정하기 위해 relative를 선언합니다. */
+  overflow: hidden; /* 가상 요소가 이 요소를 벗어나지 않게 합니다. */
+  margin-bottom: 20px;
+}
+
+.loginView_right_or_signup::before,
+.loginView_right_or_signup::after {
+  content: ""; /* 가상 요소를 생성합니다. */
+  background: #999999; /* 짝대기 색상을 검정색으로 설정합니다. */
+  position: absolute; /* 가상 요소의 위치를 절대값으로 설정합니다. */
+  height: 2px; /* 짝대기 두께를 1px로 설정합니다. */
+  width: 25%; /* 짝대기 길이를 50%로 설정합니다. */
+  top: 58%; /* 짝대기를 상위 요소의 중앙에 위치시킵니다. */
+  border: none;
+}
+
+.loginView_right_or_signup::before {
+  right: 73.5%; /* 오른쪽 짝대기를 텍스트의 오른쪽에 위치시킵니다. */
+  margin-right: 5px; /* 텍스트와의 간격을 설정합니다. */
+}
+
+.loginView_right_or_signup::after {
+  left: 35.5%; /* 왼쪽 짝대기를 텍스트의 왼쪽에시킵니다. */
+  margin-left: 0px; /* 텍스트와의격을 설정합니다. */
+}
+
+/*signup modal screen*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  width: 40em;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.completeViewIcon{
+  height: 60px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.completeView_Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #535353;
+}
+
+.completeView_SubTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #535353;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.completeView_Data div {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #535353;
+  font-size: 15px;
+  margin-left: 8em;
+}
+
+.completeView_right_Username{
+  background-color: #EAEAEA;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 20px;
+  width: 20em;
+  height: 30px;
+  color: #656565;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.completeView_right_Email{
+  background-color: #EAEAEA;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 52px;
+  width: 20em;
+  height: 30px;
+  color: #656565;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.completeView_right_Password{
+  background-color: #EAEAEA;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 25px;
+  width: 20em;
+  height: 30px;
+  color: #656565;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.completeView_modal_button{
+  border: none;
+  background-color: #765827;
+  border-radius: 5px;
+  margin-left: 115px;
+  width: 31.3em;
+  height: 50px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}

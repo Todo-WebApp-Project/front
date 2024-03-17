@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* 스크롤바를 숨김 */
+::-webkit-scrollbar {
+  display: none;
+}
+
+button{
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #C1D0B5;
+}
+
+div.task-container {
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+}
+
+div.task-container:hover {
+  background-color: #C1D0B5;
+}
+
+
+
+body {
+  font-family: 'Montserrat',sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+p, h1{
+  font-family: 'Montserrat',sans-serif;
+}
+
+div{
+  font-family: 'Montserrat',sans-serif;
+}

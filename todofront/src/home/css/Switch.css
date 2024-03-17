@@ -1,0 +1,50 @@
+.switch {
+    display: block;
+    position: relative;
+    width: 5.4em;
+    height: 1.8em;
+    background: #d3d3d3;
+    border-radius: 60px;
+    /* transition: background 0.4s; */
+    margin-left: 2.4em;
+  }
+  
+  .switch::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+    background-color: #fff;
+    transform: translateY(-50%);
+    box-shadow: 1px 3px 4px rgba(0,0,0,0.1);
+    transition: all 0.4s;
+  }
+  
+  .switch::before {
+    content: "OFF";
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 38px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.4s;
+  }
+  
+  #chk1:checked + .switch {
+    background:#99A98F;
+  }
+  
+  #chk1:checked + .switch::after {
+    left: calc(100% - 33.5px);
+  }
+  
+  #chk1:checked + .switch::before {
+    content: "ON";
+    color: #ffffff;
+    left: 13px;
+  }
+  

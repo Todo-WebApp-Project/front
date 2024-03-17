@@ -1,0 +1,111 @@
+.CalenderPage {
+  padding: 20px;
+}
+
+.rbc-calendar,
+.rbc-header,
+.rbc-day-bg,
+.rbc-date-cell,
+.rbc-row-content,
+.rbc-month-row,
+.rbc-row-bg {
+  border: none !important;
+}
+
+.rbc-row,
+.rbc-calendar .rbc-month-view,
+.rbc-calendar .rbc-month-row,
+.rbc-calendar .rbc-date-cell {
+  border: none !important;
+}
+
+.rbc-cell {
+  border: none !important;
+}
+
+.toolbar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-container .date-label {
+  font-size: 50px;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 10em;
+  height: 3em;
+  background-color: #eceaea;
+  border-radius: 10px;
+}
+
+.calender_button_left {
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  height: 2.8em;
+  width: 2.5em;
+  text-align: center;
+  color: #4e4e4e;
+  margin-right: 0.4em;
+}
+
+.calender_button_right {
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  height: 2.8em;
+  width: 2.5em;
+  text-align: center;
+  color: #4e4e4e;
+  margin-left: 0.4em;
+}
+
+.calender_button_middle {
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  height: 2.8em;
+  width: 5.5em;
+  text-align: center;
+  color: #4e4e4e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.rbc-header {
+  font-family: "Montserrat", sans-serif;
+  text-align: left !important;
+  border: none !important;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.rbc-day-slot {
+  text-align: left !important;
+  font-family: "Montserrat", sans-serif !important; /* 원하는 폰트로 변경 */
+  font-size: 15px !important; /* 원하는 폰트 크기로 변경 */
+  font-weight: bold !important; /* 원하는 폰트 두께로 변경 */
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-60%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.modal {
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+}

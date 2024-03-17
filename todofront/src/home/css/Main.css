@@ -1,0 +1,28 @@
+html,
+body,
+#root,
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.HomePage_MainFrame {
+  background-color: #d6e8db;
+  width: 118.7em;
+  height: 57.8em;
+  padding: 10px;
+  display: flex;
+}
+
+.HomePage_SubFrame {
+  margin-left: 15px;
+  width: 99em;
+  height: 57.8em;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.HomePage_SubFrame.collapsed {
+  width: 116em;
+  height: 57.8em;
+}

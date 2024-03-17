@@ -1,0 +1,92 @@
+.LandingPage_Frame {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftPage{
+    margin-left: 10px;
+    width: 49.3%;
+    height: 96vh;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.rightPage{
+    margin-top: 10px;
+    width: 49.3%;
+    height: 96vh;
+    background-color: #C1D0B5;
+    border-radius: 20px;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*왼쪽 CSS*/
+.LandingPage_Icon{
+    padding-left: 50px;
+    margin-top: 20px;
+    display: flex;;
+    align-items: center;
+    font-weight: bold;
+    color: #494949;
+    font-size: 30px;
+}
+
+.Icon_Landing{
+    width: 60px;
+    height: auto;
+}
+
+.LandingPage_AppName{
+    margin-left: 15px;
+}
+
+.LandingPage_Text_title{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-left: 50px;
+    margin-top: 0px;
+    display: flex;;
+    align-items: center;
+    font-weight: bold;
+    color: #333333;
+    font-size: 70px;
+}
+
+.LadingPage_text_content{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-left: 58px;
+    margin-top: 30px;
+    display: flex;;
+    align-items: center;
+    font-weight: 300;
+    color: #5E5E5E;
+    font-size: 20px;
+}
+
+.Landing_Page_StartButton{
+    color: #2F2F2F;
+    background-color: #FFF8DE;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    height: 80px;
+    width: 450px;
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: 40px;
+    transition: background-color 0.3s;
+}
+
+.Landing_Page_StartButton:hover{
+    background-color: #EFE9D0;
+}
+
+.greetingImg{
+    width: auto;
+    height: 25em;
+}

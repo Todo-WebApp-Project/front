@@ -1,0 +1,161 @@
+.searching_challenge {
+  padding-top: 2.5em;
+}
+
+.inputsearching_data_challenge {
+  transition: border-color 0.5s ease; /* 천천히 색상 변경 */
+  border: 2px solid #bfe7c5;
+  border-radius: 15px;
+  padding-left: 20px;
+  width: 80em;
+  height: 2.8em;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #4e4e4e;
+  padding-right: 7em;
+}
+
+.inputsearching_data_challenge.focused {
+  border-color: rgb(78, 160, 78);
+}
+
+.challengeIcon_search {
+  position: absolute;
+  top: 3.8em;
+  right: 16.5em; /* 필요에 따라 조정 */
+  color: #bfe7c5; /* 아이콘 색상, 필요에 따라 조정 */
+  width: auto;
+  height: 1.7em;
+}
+
+.button_challenge1 {
+  border: none;
+  background-color: white;
+  margin-left: 3em;
+  border-radius: 10em;
+}
+
+.button_challenge2 {
+  border: none;
+  background-color: white;
+  margin-left: 1em;
+  border-radius: 10em;
+}
+
+.button_challenge3 {
+  border: none;
+  background-color: white;
+  margin-left: 1em;
+  border-radius: 10em;
+}
+
+.challengeIcon_search_button {
+  color: #4e4e4e;
+  width: 2em;
+  height: 2em;
+}
+
+.Tag_lists {
+  margin-top: 1em;
+}
+
+.button_all {
+  border: none;
+  height: 2.3em;
+  width: 5em;
+  border-radius: 8px;
+}
+
+.button_exercise,
+.button_life,
+.button_diet,
+.button_hobby,
+.button_beauty,
+.button_ex {
+  border: none;
+  margin-left: 1em;
+  height: 2.3em;
+  width: 5em;
+  border-radius: 8px;
+}
+
+.challenge_body {
+  margin-top: 1em;
+  width: 100%;
+  height: 47em;
+  border-radius: 15px;
+}
+
+.challenge_body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* 항목 사이의 간격 조정 */
+  overflow-x: auto; /* 가로 스크롤 생성 */
+}
+
+.challenge_body > div {
+  flex: 0 0 22%; /* flex-grow, flex-shrink, flex-basis 설정 */
+  /* 항목의 기본 너비를 22%로 설정하여 한 줄에 4개가 꽉 차도록 함. */
+}
+
+/* 스크롤바 스타일링 (선택적) */
+.challenge_body::-webkit-scrollbar {
+  height: 8px;
+}
+
+.challenge_body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.challenge_body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.tag_css{
+  background-color: #5fb4a9;
+  border-radius: 15px;
+  padding: 5px;
+  width: auto;
+  max-width: 60px;
+  height: auto;
+  color: azure;
+  font-size: 15px;
+  text-align: center;
+}
+
+.modal_challenge {
+  animation-name: slideDown;
+  animation-duration: 0.8s;
+  background-color: transparent;
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.modal_conponent_challenge{
+  background-color: white;
+  height: 22em;
+  width: 30em;
+  border-radius: 15px;
+  border: 3px solid #4e4e4e50;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_challenge_button{
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  background-color: #39c48a;
+  height: auto;
+  width: 6em;
+  padding: 5px;
+}

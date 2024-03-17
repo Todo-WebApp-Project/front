@@ -1,0 +1,121 @@
+.sidebar {
+  padding-left: 1.5em;
+  width: 17em;
+  height: 100%;
+  transition: width 0.3s ease;
+  background-color: #fff8de;
+  border-radius: 20px;
+}
+
+.sidebar.closed {
+  width: 0;
+  padding-left: 0;
+}
+
+.sidebar > * {
+  transition: opacity 0.3s ease;
+}
+
+.sidebar.closed > *:not(.MenuTitle) {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.sidebar.closed > .MenuTitle > *:not(.menuButton) {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  padding: 0px;
+}
+
+.MenuTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+.menuButton {
+  border: none;
+  background-color: transparent;
+  padding-left: 16.5em;
+  position: absolute;
+  transition: left 0.3s ease;
+}
+
+.noHover:hover {
+  background-color: inherit;
+}
+
+.icon {
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #b9aaaa;
+}
+
+.sidebar.closed .menuButton {
+  transform: translateX(-13.5em);
+}
+
+.NavappTitle {
+  color: #535353;
+  font-size: 30px;
+}
+
+.icon {
+  width: auto;
+  height: 25px;
+  color: #535353;
+}
+
+.NavappSubTitle {
+  color: #535353;
+}
+
+/*tasks under button*/
+
+.moveButton {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0.5em;
+  width: 18em;
+  height: 2.5em;
+  margin-bottom: 1em;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #535353;
+}
+
+.icon_tasks {
+  color: #535353;
+  width: 1.2em;
+  height: auto;
+}
+
+.moveButton > .icon_tasks {
+  margin-right: 1em; /* 이 부분을 추가하세요 */
+}
+
+.TaskList {
+  margin-bottom: 3em;
+}
+
+.functionList {
+  margin-bottom: 7em;
+}
+
+.Level_div {
+  margin-bottom: 3em;
+}
+
+.level_img {
+  height: 12em;
+  width: auto;
+}
